@@ -98,37 +98,44 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
 
     // Ticket Providers Data
-    const ticketProviders = [
-        {
-            id: 1,
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Ticketmaster_2016.svg/1200px-Ticketmaster_2016.svg.png',
-            name: 'Ticketmaster',
-            rating: 4.5,
-            link: 'https://www.ticketmaster.com/'
-        },
-        {
-            id: 2,
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Live_Nation_Entertainment_logo.svg/1200px-Live_Nation_Entertainment_logo.svg.png',
-            name: 'Live Nation',
-            rating: 4.3,
-            link: 'https://www.livenation.com/'
-        },
-        {
-            id: 3,
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/StubHub_logo.svg/1200px-StubHub_logo.svg.png',
-            name: 'StubHub',
-            rating: 4.0,
-            link: 'https://www.stubhub.com/'
-        },
-        {
-            id: 4,
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Eventbrite_Logo.svg/1200px-Eventbrite_Logo.svg.png',
-            name: 'Eventbrite',
-            rating: 4.2,
-            link: 'https://www.eventbrite.com/'
-        }
-    ];
-
+   
+const ticketProviders = [
+    {
+        id: 1,
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Ticketmaster_2016.svg/2560px-Ticketmaster_2016.svg.png',
+        name: 'Ticketmaster',
+        rating: 4.5,
+        link: 'https://www.ticketmaster.com/'
+    },
+    {
+        id: 2,
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Live_Nation_Entertainment_logo.svg/1200px-Live_Nation_Entertainment_logo.svg.png',
+        name: 'Live Nation',
+        rating: 4.3,
+        link: 'https://www.livenation.com/'
+    },
+    {
+        id: 3,
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/StubHub_logo.svg/1200px-StubHub_logo.svg.png',
+        name: 'StubHub',
+        rating: 4.0,
+        link: 'https://www.stubhub.com/'
+    },
+    {
+        id: 4,
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Eventbrite_Logo.svg/1200px-Eventbrite_Logo.svg.png',
+        name: 'Eventbrite',
+        rating: 4.2,
+        link: 'https://www.eventbrite.com/'
+    },
+    {
+        id: 5,
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/SeatGeek_Logo.svg/1200px-SeatGeek_Logo.svg.png',
+        name: 'SeatGeek',
+        rating: 4.4,
+        link: 'https://seatgeek.com/'
+    }
+];
     // Render Featured Concerts
     const concertGrid = document.querySelector('.concert-grid');
     featuredConcerts.forEach(concert => {
